@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/addtoolbar"
+        android:layout_width="match_parent"
+        app:title="語音訓練"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/teal_200">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/tvspeech"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="#ff9999"
+        android:text="你今天吃什麼東西呢?"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="100dp"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnspeech"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_mic_24"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/speech"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="點擊麥克風圖示，並說出上方句子"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnsure"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="送出" />
+
+
+</LinearLayout>

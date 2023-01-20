@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">test0117</string>
+    <string-array name="option">
+        <item>圖像訓練</item>
+        <item>語音訓練</item>
+        <item>語句訓練</item>
+        <item>語句訓練1</item>
+    </string-array>
+    <string-array name="option1">
+        <item>語音輸入 文字提示</item>
+        <item>文字輸入 語音提示</item>
+    </string-array>
+    <string-array name="option2">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="place_holder_time">00:00:00</string>
+    <string name="reset">重新</string>
+    <string name="start">開始</string>
+    <string name="stop">停止</string>
+
+
+</resources>
