@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/id_home_fragment"
+            android:title="首頁"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/id_settings_fragment"
+            android:title="設定"
+            android:icon="@drawable/ic_baseline_settings_24"/>
+        <item
+            android:id="@+id/id_info_fragment"
+            android:title="用戶資料"
+            android:icon="@drawable/ic_baseline_edit_24"/>
+
+        <item android:title="user interface">
+            <menu>
+                <item
+                    android:id="@+id/user"
+                    android:title="我的帳戶"
+                    android:icon="@drawable/ic_baseline_account_circle_24"/>
+                <item
+                    android:id="@+id/signout"
+                    android:title="登出"
+                    android:icon="@drawable/ic_baseline_output_24"/>
+
+            </menu>
+         </item>
+</menu>
