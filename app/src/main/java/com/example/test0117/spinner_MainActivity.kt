@@ -14,7 +14,6 @@ class spinner_MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.select_dialog_item)
-
         sp = findViewById<View>(R.id.secondaryProgress) as Spinner
 
         sp!!.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
@@ -25,8 +24,9 @@ class spinner_MainActivity : AppCompatActivity() {
                 id: Long
             ) {
                 val result = parent.getItemAtPosition(position).toString()
-                Toast.makeText(this@spinner_MainActivity,"you select is${result}",Toast.LENGTH_LONG).show()
+                Toast.makeText(this@spinner_MainActivity, result, Toast.LENGTH_LONG).show()
             }
+
             override fun onNothingSelected(parent: AdapterView<*>?) {}
         }
     }

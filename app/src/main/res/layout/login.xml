@@ -5,15 +5,19 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
-
-
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/addtoolbar"
+        android:layout_width="match_parent"
+        app:title="首頁"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/teal_200">
+    </androidx.appcompat.widget.Toolbar>
 
 
     <Spinner
         android:id="@+id/sp"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:layout_margin="50dp"
         android:entries="@array/option"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,7 +30,7 @@
     <Spinner
         android:id="@+id/spinner1"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:layout_margin="50dp"
         android:entries="@array/option1"
         app:layout_constraintBottom_toBottomOf="parent"

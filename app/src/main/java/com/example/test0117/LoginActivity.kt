@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.basic_information.*
 import kotlinx.android.synthetic.main.image_recognition.*
 import kotlinx.android.synthetic.main.login.*
 

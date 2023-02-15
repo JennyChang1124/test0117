@@ -44,11 +44,8 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".SpeechActivity" />
         <activity android:name=".MainlogActivity"/>
+        <activity android:name=".degreeActivity"/>
         <activity android:name=".spinner_MainActivity"/>
-        <activity android:name=".user_loginActivity"/>
-        <activity android:name=".user_RegisterActivity"/>
-        <activity android:name=".Main_logActivity"/>
-        <activity android:name=".timerActivity"/>
     </application>
 
 </manifest>

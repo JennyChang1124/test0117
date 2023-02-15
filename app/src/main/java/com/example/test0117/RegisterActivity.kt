@@ -19,10 +19,14 @@ class RegisterActivity : AppCompatActivity() {
                     .isNotEmpty() || editCPassword.text.trim()
                     .isNotEmpty() || editPassword.text.trim().isNotEmpty()
             ) {
-                Toast.makeText(this, "註冊成功!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Input provided", Toast.LENGTH_LONG).show()
             } else {
-                Toast.makeText(this, "請填完整!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Input required", Toast.LENGTH_LONG).show()
             }
+        }
+        btnRegister.setOnClickListener {
+            val   intent = Intent(this,userloginActivity::class.java);
+            startActivity(intent)
         }
 
 

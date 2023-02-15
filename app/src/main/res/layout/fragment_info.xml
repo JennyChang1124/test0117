@@ -6,11 +6,15 @@
     tools:context=".infoFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <include
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        layout="@layout/basic_information"/>
-
+        android:text="Info"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        />
 
 
 </FrameLayout>
